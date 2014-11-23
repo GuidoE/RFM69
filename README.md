@@ -11,3 +11,7 @@ Ground  - 25
 You can change the interrupt pin (GPIO24) in the class init.  
 
 prerequisites: RPi.GPIO and spidev  
+
+Add RFM69 to PYTHONPATH from RaspberryPi terminal
+
+export PYTHONPATH=$PYTHONPATH:/local/path/to/RFM69
